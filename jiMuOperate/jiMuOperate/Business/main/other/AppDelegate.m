@@ -8,6 +8,12 @@
 
 #import "AppDelegate.h"
 #import "ViewController.h"
+#import "JMPinealViewController.h"
+#import "JMStrategyViewController.h"
+#import "JMFinanceViewController.h"
+#import "JMMyViewController.h"
+#import "JMMoreViewController.h"
+
 
 @interface AppDelegate ()
 
@@ -24,6 +30,24 @@
     ViewController *viewC = [[ViewController alloc]init];
     viewC.view.backgroundColor = [UIColor whiteColor];
     [self.window setRootViewController:viewC];
+    
+    
+    UITabBarController *tabBarController = [[UITabBarController alloc] init];
+    
+    JMPinealViewController *pineal = [[JMPinealViewController alloc] init];
+    UINavigationController *pinealNavigation = [[UINavigationController alloc] initWithRootViewController:pineal];
+
+    
+    JMStrategyViewController *strategy = [[JMStrategyViewController alloc] init];
+    UINavigationController *strategyNavigation = [[UINavigationController alloc] initWithRootViewController:strategy];
+    
+    JMFinanceViewController *finance = [[JMFinanceViewController alloc]init];
+    UINavigationController *financeNavigation = [[UINavigationController alloc]initWithRootViewController:finance];
+ 
+    
+    tabBarController.viewControllers = [NSArray arrayWithObjects:pinealNavigation,strategyNavigation,financeNavigation,nil];
+    
+    
     
     [self.window makeKeyAndVisible];
 

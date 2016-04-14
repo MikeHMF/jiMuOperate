@@ -32,6 +32,22 @@
 		537EBE4E1CBF407400E77CD0 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 537EBE3B1CBF407400E77CD0 /* Reachability.m */; };
 		537EBE4F1CBF407400E77CD0 /* ToolViewAndData.m in Sources */ = {isa = PBXBuildFile; fileRef = 537EBE3D1CBF407400E77CD0 /* ToolViewAndData.m */; };
 		537EBE521CBF414700E77CD0 /* JMMembersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 537EBE511CBF414700E77CD0 /* JMMembersViewController.m */; };
+		537EBE5B1CBF719000E77CD0 /* JMMoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 537EBE5A1CBF719000E77CD0 /* JMMoreViewController.m */; };
+		537EBE5E1CBF71B000E77CD0 /* JMMyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 537EBE5D1CBF71B000E77CD0 /* JMMyViewController.m */; };
+		537EBE611CBF721B00E77CD0 /* JMPinealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 537EBE601CBF721B00E77CD0 /* JMPinealViewController.m */; };
+		537EBE641CBF723F00E77CD0 /* JMStrategyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 537EBE631CBF723F00E77CD0 /* JMStrategyViewController.m */; };
+		537EBE671CBF72D500E77CD0 /* JMFinanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 537EBE661CBF72D500E77CD0 /* JMFinanceViewController.m */; };
+		537EBE941CBF9EA700E77CD0 /* JMFinanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 537EBE6F1CBF9EA700E77CD0 /* JMFinanceViewController.m */; };
+		537EBE951CBF9EA700E77CD0 /* JMMembersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 537EBE711CBF9EA700E77CD0 /* JMMembersViewController.m */; };
+		537EBE961CBF9EA700E77CD0 /* JMMoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 537EBE731CBF9EA700E77CD0 /* JMMoreViewController.m */; };
+		537EBE971CBF9EA700E77CD0 /* JMMyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 537EBE751CBF9EA700E77CD0 /* JMMyViewController.m */; };
+		537EBE981CBF9EA700E77CD0 /* JMPinealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 537EBE771CBF9EA700E77CD0 /* JMPinealViewController.m */; };
+		537EBE991CBF9EA700E77CD0 /* JMStrategyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 537EBE791CBF9EA700E77CD0 /* JMStrategyViewController.m */; };
+		537EBE9A1CBF9EA700E77CD0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 537EBE7B1CBF9EA700E77CD0 /* ViewController.m */; };
+		537EBE9B1CBF9EA700E77CD0 /* CommonFunc.m in Sources */ = {isa = PBXBuildFile; fileRef = 537EBE7E1CBF9EA700E77CD0 /* CommonFunc.m */; };
+		537EBE9C1CBF9EA700E77CD0 /* Request.m in Sources */ = {isa = PBXBuildFile; fileRef = 537EBE801CBF9EA700E77CD0 /* Request.m */; };
+		537EBE9D1CBF9EA700E77CD0 /* ZDData.m in Sources */ = {isa = PBXBuildFile; fileRef = 537EBE821CBF9EA700E77CD0 /* ZDData.m */; };
+		537EBE9E1CBF9EA700E77CD0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 537EBE851CBF9EA700E77CD0 /* AppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -104,6 +120,40 @@
 		537EBE3D1CBF407400E77CD0 /* ToolViewAndData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToolViewAndData.m; sourceTree = "<group>"; };
 		537EBE501CBF414700E77CD0 /* JMMembersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMMembersViewController.h; sourceTree = "<group>"; };
 		537EBE511CBF414700E77CD0 /* JMMembersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMMembersViewController.m; sourceTree = "<group>"; };
+		537EBE591CBF719000E77CD0 /* JMMoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMMoreViewController.h; sourceTree = "<group>"; };
+		537EBE5A1CBF719000E77CD0 /* JMMoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMMoreViewController.m; sourceTree = "<group>"; };
+		537EBE5C1CBF71B000E77CD0 /* JMMyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMMyViewController.h; sourceTree = "<group>"; };
+		537EBE5D1CBF71B000E77CD0 /* JMMyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMMyViewController.m; sourceTree = "<group>"; };
+		537EBE5F1CBF721B00E77CD0 /* JMPinealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMPinealViewController.h; sourceTree = "<group>"; };
+		537EBE601CBF721B00E77CD0 /* JMPinealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMPinealViewController.m; sourceTree = "<group>"; };
+		537EBE621CBF723F00E77CD0 /* JMStrategyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMStrategyViewController.h; sourceTree = "<group>"; };
+		537EBE631CBF723F00E77CD0 /* JMStrategyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMStrategyViewController.m; sourceTree = "<group>"; };
+		537EBE651CBF72D500E77CD0 /* JMFinanceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMFinanceViewController.h; sourceTree = "<group>"; };
+		537EBE661CBF72D500E77CD0 /* JMFinanceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMFinanceViewController.m; sourceTree = "<group>"; };
+		537EBE6E1CBF9EA700E77CD0 /* JMFinanceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMFinanceViewController.h; sourceTree = "<group>"; };
+		537EBE6F1CBF9EA700E77CD0 /* JMFinanceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMFinanceViewController.m; sourceTree = "<group>"; };
+		537EBE701CBF9EA700E77CD0 /* JMMembersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMMembersViewController.h; sourceTree = "<group>"; };
+		537EBE711CBF9EA700E77CD0 /* JMMembersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMMembersViewController.m; sourceTree = "<group>"; };
+		537EBE721CBF9EA700E77CD0 /* JMMoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMMoreViewController.h; sourceTree = "<group>"; };
+		537EBE731CBF9EA700E77CD0 /* JMMoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMMoreViewController.m; sourceTree = "<group>"; };
+		537EBE741CBF9EA700E77CD0 /* JMMyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMMyViewController.h; sourceTree = "<group>"; };
+		537EBE751CBF9EA700E77CD0 /* JMMyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMMyViewController.m; sourceTree = "<group>"; };
+		537EBE761CBF9EA700E77CD0 /* JMPinealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMPinealViewController.h; sourceTree = "<group>"; };
+		537EBE771CBF9EA700E77CD0 /* JMPinealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMPinealViewController.m; sourceTree = "<group>"; };
+		537EBE781CBF9EA700E77CD0 /* JMStrategyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMStrategyViewController.h; sourceTree = "<group>"; };
+		537EBE791CBF9EA700E77CD0 /* JMStrategyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMStrategyViewController.m; sourceTree = "<group>"; };
+		537EBE7A1CBF9EA700E77CD0 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		537EBE7B1CBF9EA700E77CD0 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		537EBE7D1CBF9EA700E77CD0 /* CommonFunc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonFunc.h; sourceTree = "<group>"; };
+		537EBE7E1CBF9EA700E77CD0 /* CommonFunc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonFunc.m; sourceTree = "<group>"; };
+		537EBE7F1CBF9EA700E77CD0 /* Request.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Request.h; sourceTree = "<group>"; };
+		537EBE801CBF9EA700E77CD0 /* Request.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Request.m; sourceTree = "<group>"; };
+		537EBE811CBF9EA700E77CD0 /* ZDData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDData.h; sourceTree = "<group>"; };
+		537EBE821CBF9EA700E77CD0 /* ZDData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDData.m; sourceTree = "<group>"; };
+		537EBE841CBF9EA700E77CD0 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		537EBE851CBF9EA700E77CD0 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		537EBE861CBF9EA700E77CD0 /* NetInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetInterface.h; sourceTree = "<group>"; };
+		537EBE871CBF9EA700E77CD0 /* Screen_header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Screen_header.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -203,6 +253,11 @@
 		537EBE0E1CBF407400E77CD0 /* Business */ = {
 			isa = PBXGroup;
 			children = (
+				537EBE681CBF9EA700E77CD0 /* finance */,
+				537EBE6C1CBF9EA700E77CD0 /* main */,
+				537EBE881CBF9EA700E77CD0 /* more */,
+				537EBE8C1CBF9EA700E77CD0 /* pineal */,
+				537EBE901CBF9EA700E77CD0 /* strategy */,
 				537EBE0F1CBF407400E77CD0 /* main */,
 			);
 			name = Business;
@@ -226,6 +281,16 @@
 				537EBE121CBF407400E77CD0 /* ViewController.m */,
 				537EBE501CBF414700E77CD0 /* JMMembersViewController.h */,
 				537EBE511CBF414700E77CD0 /* JMMembersViewController.m */,
+				537EBE591CBF719000E77CD0 /* JMMoreViewController.h */,
+				537EBE5A1CBF719000E77CD0 /* JMMoreViewController.m */,
+				537EBE5C1CBF71B000E77CD0 /* JMMyViewController.h */,
+				537EBE5D1CBF71B000E77CD0 /* JMMyViewController.m */,
+				537EBE5F1CBF721B00E77CD0 /* JMPinealViewController.h */,
+				537EBE601CBF721B00E77CD0 /* JMPinealViewController.m */,
+				537EBE621CBF723F00E77CD0 /* JMStrategyViewController.h */,
+				537EBE631CBF723F00E77CD0 /* JMStrategyViewController.m */,
+				537EBE651CBF72D500E77CD0 /* JMFinanceViewController.h */,
+				537EBE661CBF72D500E77CD0 /* JMFinanceViewController.m */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -318,6 +383,185 @@
 				537EBE3D1CBF407400E77CD0 /* ToolViewAndData.m */,
 			);
 			path = "Self-adaption";
+			sourceTree = "<group>";
+		};
+		537EBE681CBF9EA700E77CD0 /* finance */ = {
+			isa = PBXGroup;
+			children = (
+				537EBE691CBF9EA700E77CD0 /* Controller */,
+				537EBE6A1CBF9EA700E77CD0 /* Mode */,
+				537EBE6B1CBF9EA700E77CD0 /* View */,
+			);
+			path = finance;
+			sourceTree = "<group>";
+		};
+		537EBE691CBF9EA700E77CD0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		537EBE6A1CBF9EA700E77CD0 /* Mode */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mode;
+			sourceTree = "<group>";
+		};
+		537EBE6B1CBF9EA700E77CD0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		537EBE6C1CBF9EA700E77CD0 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				537EBE6D1CBF9EA700E77CD0 /* controller */,
+				537EBE7C1CBF9EA700E77CD0 /* model */,
+				537EBE831CBF9EA700E77CD0 /* other */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		537EBE6D1CBF9EA700E77CD0 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				537EBE6E1CBF9EA700E77CD0 /* JMFinanceViewController.h */,
+				537EBE6F1CBF9EA700E77CD0 /* JMFinanceViewController.m */,
+				537EBE701CBF9EA700E77CD0 /* JMMembersViewController.h */,
+				537EBE711CBF9EA700E77CD0 /* JMMembersViewController.m */,
+				537EBE721CBF9EA700E77CD0 /* JMMoreViewController.h */,
+				537EBE731CBF9EA700E77CD0 /* JMMoreViewController.m */,
+				537EBE741CBF9EA700E77CD0 /* JMMyViewController.h */,
+				537EBE751CBF9EA700E77CD0 /* JMMyViewController.m */,
+				537EBE761CBF9EA700E77CD0 /* JMPinealViewController.h */,
+				537EBE771CBF9EA700E77CD0 /* JMPinealViewController.m */,
+				537EBE781CBF9EA700E77CD0 /* JMStrategyViewController.h */,
+				537EBE791CBF9EA700E77CD0 /* JMStrategyViewController.m */,
+				537EBE7A1CBF9EA700E77CD0 /* ViewController.h */,
+				537EBE7B1CBF9EA700E77CD0 /* ViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		537EBE7C1CBF9EA700E77CD0 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				537EBE7D1CBF9EA700E77CD0 /* CommonFunc.h */,
+				537EBE7E1CBF9EA700E77CD0 /* CommonFunc.m */,
+				537EBE7F1CBF9EA700E77CD0 /* Request.h */,
+				537EBE801CBF9EA700E77CD0 /* Request.m */,
+				537EBE811CBF9EA700E77CD0 /* ZDData.h */,
+				537EBE821CBF9EA700E77CD0 /* ZDData.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		537EBE831CBF9EA700E77CD0 /* other */ = {
+			isa = PBXGroup;
+			children = (
+				537EBE841CBF9EA700E77CD0 /* AppDelegate.h */,
+				537EBE851CBF9EA700E77CD0 /* AppDelegate.m */,
+				537EBE861CBF9EA700E77CD0 /* NetInterface.h */,
+				537EBE871CBF9EA700E77CD0 /* Screen_header.h */,
+			);
+			path = other;
+			sourceTree = "<group>";
+		};
+		537EBE881CBF9EA700E77CD0 /* more */ = {
+			isa = PBXGroup;
+			children = (
+				537EBE891CBF9EA700E77CD0 /* Controller */,
+				537EBE8A1CBF9EA700E77CD0 /* Mode */,
+				537EBE8B1CBF9EA700E77CD0 /* View */,
+			);
+			path = more;
+			sourceTree = "<group>";
+		};
+		537EBE891CBF9EA700E77CD0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		537EBE8A1CBF9EA700E77CD0 /* Mode */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mode;
+			sourceTree = "<group>";
+		};
+		537EBE8B1CBF9EA700E77CD0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		537EBE8C1CBF9EA700E77CD0 /* pineal */ = {
+			isa = PBXGroup;
+			children = (
+				537EBE8D1CBF9EA700E77CD0 /* Controller */,
+				537EBE8E1CBF9EA700E77CD0 /* Mode */,
+				537EBE8F1CBF9EA700E77CD0 /* View */,
+			);
+			path = pineal;
+			sourceTree = "<group>";
+		};
+		537EBE8D1CBF9EA700E77CD0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		537EBE8E1CBF9EA700E77CD0 /* Mode */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mode;
+			sourceTree = "<group>";
+		};
+		537EBE8F1CBF9EA700E77CD0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		537EBE901CBF9EA700E77CD0 /* strategy */ = {
+			isa = PBXGroup;
+			children = (
+				537EBE911CBF9EA700E77CD0 /* Controller */,
+				537EBE921CBF9EA700E77CD0 /* Mode */,
+				537EBE931CBF9EA700E77CD0 /* View */,
+			);
+			path = strategy;
+			sourceTree = "<group>";
+		};
+		537EBE911CBF9EA700E77CD0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		537EBE921CBF9EA700E77CD0 /* Mode */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mode;
+			sourceTree = "<group>";
+		};
+		537EBE931CBF9EA700E77CD0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -451,8 +695,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				537EBE991CBF9EA700E77CD0 /* JMStrategyViewController.m in Sources */,
 				537EBE3E1CBF407400E77CD0 /* ViewController.m in Sources */,
 				537EBE3F1CBF407400E77CD0 /* CommonFunc.m in Sources */,
+				537EBE981CBF9EA700E77CD0 /* JMPinealViewController.m in Sources */,
 				537EBE4D1CBF407400E77CD0 /* JTSlideShadowAnimation.m in Sources */,
 				537EBE4C1CBF407400E77CD0 /* CUSFlashLabel.m in Sources */,
 				537EBE421CBF407400E77CD0 /* AppDelegate.m in Sources */,
@@ -460,16 +706,30 @@
 				537EBE491CBF407400E77CD0 /* MBProgressHUD+MJ.m in Sources */,
 				537EBE521CBF414700E77CD0 /* JMMembersViewController.m in Sources */,
 				537EBE461CBF407400E77CD0 /* UIView+Extension.m in Sources */,
+				537EBE9C1CBF9EA700E77CD0 /* Request.m in Sources */,
+				537EBE941CBF9EA700E77CD0 /* JMFinanceViewController.m in Sources */,
 				537EBE4E1CBF407400E77CD0 /* Reachability.m in Sources */,
+				537EBE641CBF723F00E77CD0 /* JMStrategyViewController.m in Sources */,
 				537EBE481CBF407400E77CD0 /* NSString+Hash.m in Sources */,
 				537EBDDC1CBF3FFA00E77CD0 /* main.m in Sources */,
 				537EBE431CBF407400E77CD0 /* UIBarButtonItem+Extension.m in Sources */,
+				537EBE971CBF9EA700E77CD0 /* JMMyViewController.m in Sources */,
+				537EBE671CBF72D500E77CD0 /* JMFinanceViewController.m in Sources */,
 				537EBE4F1CBF407400E77CD0 /* ToolViewAndData.m in Sources */,
 				537EBE411CBF407400E77CD0 /* ZDData.m in Sources */,
+				537EBE5E1CBF71B000E77CD0 /* JMMyViewController.m in Sources */,
 				537EBE471CBF407400E77CD0 /* GTMBase64.m in Sources */,
 				537EBE451CBF407400E77CD0 /* UIImage+Extension.m in Sources */,
+				537EBE9A1CBF9EA700E77CD0 /* ViewController.m in Sources */,
 				537EBE401CBF407400E77CD0 /* Request.m in Sources */,
 				537EBE4B1CBF407400E77CD0 /* MBProgressHUD.m in Sources */,
+				537EBE961CBF9EA700E77CD0 /* JMMoreViewController.m in Sources */,
+				537EBE9B1CBF9EA700E77CD0 /* CommonFunc.m in Sources */,
+				537EBE951CBF9EA700E77CD0 /* JMMembersViewController.m in Sources */,
+				537EBE611CBF721B00E77CD0 /* JMPinealViewController.m in Sources */,
+				537EBE5B1CBF719000E77CD0 /* JMMoreViewController.m in Sources */,
+				537EBE9D1CBF9EA700E77CD0 /* ZDData.m in Sources */,
+				537EBE9E1CBF9EA700E77CD0 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
