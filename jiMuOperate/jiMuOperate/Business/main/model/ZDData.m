@@ -137,7 +137,7 @@ NSString *const ZDISREMEMBER = @"isRemember";
 + (NSDictionary *)dictAndTestData:(NSData *)data{
     NSDictionary *dictR = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:nil];
     NSString *strR = [[NSString alloc]initWithData:data encoding:NSUTF8StringEncoding];
-    ZDLog(@"strR === %@,dictR === %@",strR,dictR);
+    NSLog(@"strR === %@,dictR === %@",strR,dictR);
 
     return dictR;
 

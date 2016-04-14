@@ -39,26 +39,8 @@
     }
     
     
-//    UserEntity *user = [UserEntity shardUserInfo];
-//    //判断是否为请求token
-//    if(![arrayStaye[1] isEqualToString:@"token"])
-//    {
-//        NSDate * curDate = [NSDate date];
-//        if (user.expires_on.copy!=nil) {
-//            //当前时间等于比较早的时间
-//            BOOL is_expires_in = [curDate isEqualToDate:[user.expires_on earlierDate:curDate]];
-//            //判断时间是否过期
-//            if (!is_expires_in) {//已过期
-//                SHOWALERTTITLE(@"提示", @"认证已过期，请重新登录");
-//                if (faileBlock) {
-//                    faileBlock(@"认证已过期，请重新登录");
-//                }
-//                
-//                return;
-//            }
-//        }
-//        
-//    }
+
+    NSString *ZDURLString = @"abc";
     
     //请求发送到的路径
     NSString *str = [NSString stringWithFormat:@"%@/%@",ZDURLString,arrayStaye[1]];
@@ -85,7 +67,7 @@
     
     if (arrayStaye.count > 2) {
         if ([arrayStaye[2] isEqualToString:@"GET"]) {
-            ZDLog(@"GET请求");
+           NSLog(@"GET请求");
             [NSURLConnection connectionWithRequest:urlRequest delegate:self];
             return;
         };

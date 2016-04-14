@@ -134,7 +134,7 @@
 		537EBDCE1CBF3FFA00E77CD0 = {
 			isa = PBXGroup;
 			children = (
-				537EBE0D1CBF407400E77CD0 /* 未命名文件夹 */,
+				537EBE0D1CBF407400E77CD0 /* souces */,
 				537EBE0E1CBF407400E77CD0 /* Business */,
 				537EBE1F1CBF407400E77CD0 /* Foundation */,
 				537EBDD91CBF3FFA00E77CD0 /* jiMuOperate */,
@@ -192,11 +192,11 @@
 			path = jiMuOperateUITests;
 			sourceTree = "<group>";
 		};
-		537EBE0D1CBF407400E77CD0 /* 未命名文件夹 */ = {
+		537EBE0D1CBF407400E77CD0 /* souces */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = "未命名文件夹";
+			name = souces;
 			path = "jiMuOperate/未命名文件夹";
 			sourceTree = "<group>";
 		};
@@ -695,6 +695,7 @@
 				537EBE061CBF3FFB00E77CD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		537EBE071CBF3FFB00E77CD0 /* Build configuration list for PBXNativeTarget "jiMuOperateTests" */ = {
 			isa = XCConfigurationList;
@@ -703,6 +704,7 @@
 				537EBE091CBF3FFB00E77CD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		537EBE0A1CBF3FFB00E77CD0 /* Build configuration list for PBXNativeTarget "jiMuOperateUITests" */ = {
 			isa = XCConfigurationList;
@@ -711,6 +713,7 @@
 				537EBE0C1CBF3FFB00E77CD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
