@@ -43,6 +43,7 @@
 		537EBE4F1CBF407400E77CD0 /* ToolViewAndData.m in Sources */ = {isa = PBXBuildFile; fileRef = 537EBE3D1CBF407400E77CD0 /* ToolViewAndData.m */; };
 		537EBE521CBF414700E77CD0 /* JMMembersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 537EBE511CBF414700E77CD0 /* JMMembersViewController.m */; };
 		84478FFF21A7ACFD004E15ED /* financeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84478FFE21A7ACFD004E15ED /* financeModel.m */; };
+		8447900221A7AE33004E15ED /* aaa.m in Sources */ = {isa = PBXBuildFile; fileRef = 8447900121A7AE33004E15ED /* aaa.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -135,6 +136,8 @@
 		537EBE511CBF414700E77CD0 /* JMMembersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMMembersViewController.m; sourceTree = "<group>"; };
 		84478FFD21A7ACFD004E15ED /* financeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = financeModel.h; sourceTree = "<group>"; };
 		84478FFE21A7ACFD004E15ED /* financeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = financeModel.m; sourceTree = "<group>"; };
+		8447900021A7AE33004E15ED /* aaa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = aaa.h; sourceTree = "<group>"; };
+		8447900121A7AE33004E15ED /* aaa.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = aaa.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -535,6 +538,8 @@
 			children = (
 				84478FFD21A7ACFD004E15ED /* financeModel.h */,
 				84478FFE21A7ACFD004E15ED /* financeModel.m */,
+				8447900021A7AE33004E15ED /* aaa.h */,
+				8447900121A7AE33004E15ED /* aaa.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -687,6 +692,7 @@
 				30726B9C1CC08EF10094F08E /* JMViewController.m in Sources */,
 				537EBE491CBF407400E77CD0 /* MBProgressHUD+MJ.m in Sources */,
 				537EBE521CBF414700E77CD0 /* JMMembersViewController.m in Sources */,
+				8447900221A7AE33004E15ED /* aaa.m in Sources */,
 				537EBE461CBF407400E77CD0 /* UIView+Extension.m in Sources */,
 				537EBE4E1CBF407400E77CD0 /* Reachability.m in Sources */,
 				537EBE481CBF407400E77CD0 /* NSString+Hash.m in Sources */,
