@@ -11,7 +11,14 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface financeModel : NSObject
+@property(nonatomic, copy) NSString *code;
+@property(nonatomic, copy) NSString *action;
+@property(nonatomic, copy) NSString *from;
+@property(nonatomic, copy) NSString *to;
+@property(nonatomic, copy) NSString *memo;
+@property(nonatomic, copy) NSString *quantity;
 
+- (NSDictionary *)parameters;
 @end
 
 NS_ASSUME_NONNULL_END
