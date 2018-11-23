@@ -42,6 +42,7 @@
 		537EBE4E1CBF407400E77CD0 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 537EBE3B1CBF407400E77CD0 /* Reachability.m */; };
 		537EBE4F1CBF407400E77CD0 /* ToolViewAndData.m in Sources */ = {isa = PBXBuildFile; fileRef = 537EBE3D1CBF407400E77CD0 /* ToolViewAndData.m */; };
 		537EBE521CBF414700E77CD0 /* JMMembersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 537EBE511CBF414700E77CD0 /* JMMembersViewController.m */; };
+		84478FFF21A7ACFD004E15ED /* financeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84478FFE21A7ACFD004E15ED /* financeModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -132,6 +133,8 @@
 		537EBE3D1CBF407400E77CD0 /* ToolViewAndData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToolViewAndData.m; sourceTree = "<group>"; };
 		537EBE501CBF414700E77CD0 /* JMMembersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMMembersViewController.h; sourceTree = "<group>"; };
 		537EBE511CBF414700E77CD0 /* JMMembersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMMembersViewController.m; sourceTree = "<group>"; };
+		84478FFD21A7ACFD004E15ED /* financeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = financeModel.h; sourceTree = "<group>"; };
+		84478FFE21A7ACFD004E15ED /* financeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = financeModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,8 +181,8 @@
 		30726B771CC08DCE0094F08E /* Finance（财务） */ = {
 			isa = PBXGroup;
 			children = (
+				84478FFC21A7ACE4004E15ED /* Model */,
 				30726B781CC08DCE0094F08E /* controller */,
-				30726B7B1CC08DCE0094F08E /* model */,
 				30726B7C1CC08DCE0094F08E /* other */,
 			);
 			path = "Finance（财务）";
@@ -192,13 +195,6 @@
 				30726B7A1CC08DCE0094F08E /* FinanceTableView.m */,
 			);
 			path = controller;
-			sourceTree = "<group>";
-		};
-		30726B7B1CC08DCE0094F08E /* model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = model;
 			sourceTree = "<group>";
 		};
 		30726B7C1CC08DCE0094F08E /* other */ = {
@@ -534,6 +530,15 @@
 			path = "Self-adaption";
 			sourceTree = "<group>";
 		};
+		84478FFC21A7ACE4004E15ED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				84478FFD21A7ACFD004E15ED /* financeModel.h */,
+				84478FFE21A7ACFD004E15ED /* financeModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -694,6 +699,7 @@
 				30726B9F1CC094C00094F08E /* JMNavigationController.m in Sources */,
 				537EBE401CBF407400E77CD0 /* Request.m in Sources */,
 				30726B991CC08DCE0094F08E /* StrategyTableView.m in Sources */,
+				84478FFF21A7ACFD004E15ED /* financeModel.m in Sources */,
 				537EBE4B1CBF407400E77CD0 /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
